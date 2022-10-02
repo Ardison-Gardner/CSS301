@@ -1,8 +1,17 @@
 body {
   background-color: orange;
 }
+img {
+  width: 50%;
+  height: auto;
+}
 @media (min-width: 640px) {
   body {
     background-color: blue;
+  }
+}
+@media (max-width: 640px) {
+  img {
+    width: 100%;
   }
 }
