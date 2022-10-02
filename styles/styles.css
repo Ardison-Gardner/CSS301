@@ -1,8 +1,8 @@
 body {
-  background-color: blue;
+  background-color: orange;
 }
-@media (max-width: 640px) {
+@media (min-width: 640px) {
   body {
-    background-color: orange;
+    background-color: blue;
   }
 }
